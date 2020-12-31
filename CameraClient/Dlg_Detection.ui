@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dlg_Detection</class>
+ <widget class="QWidget" name="Dlg_Detection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1034</width>
+    <height>782</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dlg_Detection</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>20</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>场景选择：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="cmb_scence">
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>28</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_loadScene">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>28</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>加载场景</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_save">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>28</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>保存</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_fresh">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>28</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>刷新</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,1">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>20</number>
+     </property>
+     <item>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>350</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>350</height>
+        </size>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <property name="spacing">
+         <number>30</number>
+        </property>
+        <item>
+         <widget class="Dlg_PictureDraw" name="widget_3" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>480</width>
+            <height>270</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>480</width>
+            <height>270</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_4" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <property name="spacing">
+              <number>2</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>车头检测:目标宽度是号牌宽度,目标高度是目标高度</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>车尾检测:目标宽度是号牌宽度,目标高度是目标高度</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_9">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>号牌检测:目标宽度为号牌宽度,目标高度为号牌高度</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_8">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>运动检测:目标宽度为物体宽度,目标高度为物体高度</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_11">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>尾灯检测:目标宽度为尾灯间距,目标高度为尾灯尺寸</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_7">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>头灯检测:目标宽度为最小尺寸,目标高度为最大尺寸</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_10">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>简单检测:目标宽度为物体宽度,目标高度为物体高度</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>行人检测:目标宽度为行人高度,目标高度为检测器角度</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>红灯检测: 目标宽度为描红颜色等级,默认0无需修改,</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>目标高度默认0无需修改,暗处场景修改为101</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_6">
+               <item>
+                <widget class="QPushButton" name="btn_generatingDetector">
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="text">
+                  <string>生成检测器</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="currentIndex">
+      <number>5</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>  视频检测器  </string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QTreeWidget" name="treeWidget_video">
+         <property name="styleSheet">
+          <string notr="true">QTreeWidget
+{
+	spacing:5px;
+	outline:0px;
+}
+
+QTreeWidget::item
+{
+	color:rgb(255,255,255);
+	height: 30px;
+	text-align: center;
+}
+QTreeWidget::item::hover
+{
+	background-color:rgb(0,255,0,50);
+}
+QTreeWidget::item::selected
+{
+	background-color:rgb(82,170,127);
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+}
+
+QWidget:focus{outline: none;}
+</string>
+         </property>
+         <attribute name="headerDefaultSectionSize">
+          <number>80</number>
+         </attribute>
+         <attribute name="headerMinimumSectionSize">
+          <number>30</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>序号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>使能</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>起点X</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>起点Y</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>宽度</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>高度</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>起点X1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>起点Y1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>宽度1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>起点X2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>起点Y2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>宽度2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>检测器类型</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>方向</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>号牌角度</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>存在时间</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>目标宽度</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>目标高度</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>灵敏度</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>进入滤波</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>离开滤波</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>选择区域</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="widget">
+      <attribute name="title">
+       <string>线圈检测器</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTreeWidget" name="treeWidget_coil">
+         <property name="styleSheet">
+          <string notr="true">QTreeWidget
+{
+	spacing:5px;
+	outline:0px;
+}
+
+QTreeWidget::item
+{
+	color:rgb(255,255,255);
+	height: 30px;
+	text-align: center;
+}
+QTreeWidget::item::hover
+{
+	background-color:rgb(0,255,0,50);
+}
+QTreeWidget::item::selected
+{
+	 background-color: rgb(255,0,0,100);
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+}
+
+QWidget:focus{outline: none;}
+</string>
+         </property>
+         <attribute name="headerDefaultSectionSize">
+          <number>80</number>
+         </attribute>
+         <attribute name="headerMinimumSectionSize">
+          <number>30</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>序号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>使能</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>串口通道号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>线圈通道号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>方向</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>线圈间距</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>速度修正速度</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>关联IO输出</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>对应车道</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>线圈类型</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>雷达检测器</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QTreeWidget" name="treeWidget_redar">
+         <property name="styleSheet">
+          <string notr="true">QTreeWidget
+{
+	spacing:5px;
+	outline:0px;
+}
+
+QTreeWidget::item
+{
+	color:rgb(255,255,255);
+	height: 30px;
+	text-align: center;
+}
+QTreeWidget::item::hover
+{
+	background-color:rgb(0,255,0,50);
+}
+QTreeWidget::item::selected
+{
+	background-color:rgb(82,170,127);
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+}
+
+QWidget:focus{outline: none;}
+</string>
+         </property>
+         <attribute name="headerDefaultSectionSize">
+          <number>80</number>
+         </attribute>
+         <attribute name="headerMinimumSectionSize">
+          <number>30</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>序号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>使能</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>串口通道号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>雷达类型</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>雷达与相机距离(m)</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>速度修正系数</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>对应车道</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>对应触发线</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>红灯信号检测</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QTreeWidget" name="treeWidget_RedLampSig">
+         <property name="styleSheet">
+          <string notr="true">QTreeWidget
+{
+	spacing:5px;
+	outline:0px;
+}
+
+QTreeWidget::item
+{
+	color:rgb(255,255,255);
+	height: 30px;
+	text-align: center;
+}
+QTreeWidget::item::hover
+{
+	background-color:rgb(0,255,0,50);
+}
+QTreeWidget::item::selected
+{
+	background-color:rgb(82,170,127);
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+}
+
+QWidget:focus{outline: none;}
+</string>
+         </property>
+         <column>
+          <property name="text">
+           <string>序号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>使能</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>串口通道号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>通道号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>相位关联</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>  识别区域  </string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QTreeWidget" name="treeWidget_recogArea">
+         <property name="styleSheet">
+          <string notr="true">QTreeWidget
+{
+	spacing:5px;
+	outline:0px;
+}
+
+QTreeWidget::item
+{
+	color:rgb(255,255,255);
+	height: 30px;
+	text-align: center;
+}
+QTreeWidget::item::hover
+{
+	background-color:rgb(0,255,0,50);
+}
+QTreeWidget::item::selected
+{
+	background-color:rgb(82,170,127);
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+}
+
+QWidget:focus{outline: none;}
+</string>
+         </property>
+         <attribute name="headerDefaultSectionSize">
+          <number>80</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>序号</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>使能</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>起点X1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>起点Y1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>宽度1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>起点X2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>起点Y2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>宽度2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>号牌宽度</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>号牌视角</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>方向</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>  红灯增强  </string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <widget class="QTreeWidget" name="treeWidget_RedLamp">
+         <property name="styleSheet">
+          <string notr="true">QTreeWidget
+{
+	spacing:5px;
+	outline:0px;
+}
+
+QTreeWidget::item
+{
+	color:rgb(255,255,255);
+	height: 30px;
+	text-align: center;
+}
+QTreeWidget::item::hover
+{
+	background-color:rgb(0,255,0,50);
+}
+QTreeWidget::item::selected
+{
+	background-color:rgb(82,170,127);
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+}
+
+QWidget:focus{outline: none;}
+</string>
+         </property>
+         <attribute name="headerDefaultSectionSize">
+          <number>95</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>使能</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>左上X</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>左上Y</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>宽度</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>高度</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>最小像素</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>白天增强等级</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>夜晚增强等级</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>选择区域</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>关联相位</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>Dlg_PictureDraw</class>
+   <extends>QWidget</extends>
+   <header>dlg_picturedraw.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,370 @@
+﻿生成启动时间为 2019/4/16 11:07:19。
+     1>项目“E:\project\CameraClient\CameraClient\CameraClient.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing dlg_login.h...
+         Uic'ing dlg_login.ui...
+         Moc'ing dlg_systemMaintenance.h...
+         Moc'ing dlg_otherConfig.h...
+         Moc'ing dlg_velometer.h...
+         Moc'ing Dlg_PowerSyn.h...
+         Moc'ing dlg_serial.h...
+         Moc'ing dlg_signalConfig.h...
+         Moc'ing dlg_IPCInfoSync.h...
+         Moc'ing dlg_localConfig.h...
+         Moc'ing dlg_hardware.h...
+         Moc'ing dlg_illegaldict.h...
+         Moc'ing Dlg_RegisterPlat.h...
+         Moc'ing Dlg_PlatComponent.h...
+         Moc'ing Dlg_PlatLabComponent.h...
+         Moc'ing Dlg_SnapManager.h...
+         Moc'ing Dlg_MessageBox.h...
+         Moc'ing Dlg_LightConfig.h...
+         Moc'ing Dlg_OsdAddConfig.h...
+         Moc'ing Dlg_OsdFontSetting.h...
+         Moc'ing Dlg_PicView.h...
+         Moc'ing Dlg_DebugParam.h...
+         Moc'ing Dlg_SceneConfig.h...
+         Moc'ing Dlg_Scene_Bayonet.h...
+         Moc'ing Dlg_Video.h...
+         Moc'ing Dlg_Scene_IllegalPark.h...
+         Moc'ing Dlg_Scene_IllegalMode.h...
+         Moc'ing delegate.h...
+         Moc'ing Dlg_Detection.h...
+         Moc'ing Dlg_PictureDraw.h...
+         Moc'ing Dlg_Detection_Area.h...
+         Moc'ing Dlg_Scene.h...
+         Moc'ing Dlg_SceneDraw.h...
+         Moc'ing Dlg_Scene_ManualCapture.h...
+         Moc'ing Dlg_ScenePoll.h...
+         Moc'ing Dlg_ImageQuality.h...
+         Moc'ing Dlg_LogicLane.h...
+         Moc'ing Dlg_LogicLane_Detail.h...
+         Moc'ing Dlg_PicMerge.h...
+         Moc'ing Dlg_MergeDraw.h...
+         Moc'ing Dlg_IdentParam.h...
+         Moc'ing Dlg_FlowDetection.h...
+         Moc'ing Dlg_Detection_Phase.h...
+         Moc'ing QtGuiClass.h...
+         Moc'ing Mgr_PictureSave.h...
+         Moc'ing MyWidget.h...
+         Moc'ing dlg_main.h...
+         Moc'ing dlg_deviceInfo.h...
+         Rcc'ing res.qrc...
+     1>E:\project\CameraClient\CameraClient\res.qrc : warning : potential duplicate alias detected: 'ptz_left_hover.png'
+     1>E:\project\CameraClient\CameraClient\res.qrc : warning : potential duplicate alias detected: 'ptz_left_down.png'
+     1>E:\project\CameraClient\CameraClient\res.qrc : warning : potential duplicate alias detected: 'ptz_zoomIn_down.png'
+         Uic'ing dlg_main.ui...
+         Uic'ing dlg_deviceInfo.ui...
+         Uic'ing dlg_systemMaintenance.ui...
+         Uic'ing Dlg_otherConfig.ui...
+         Uic'ing Dlg_velometer.ui...
+         Uic'ing Dlg_PowerSyn.ui...
+         Uic'ing Dlg_Serial.ui...
+         Uic'ing Dlg_SignalConfig.ui...
+         Uic'ing Dlg_IPCInfoSync.ui...
+         Uic'ing Dlg_LocalConfig.ui...
+         Uic'ing Dlg_HardWare.ui...
+         Uic'ing Dlg_IllegalDict.ui...
+         Uic'ing Dlg_RegisterPlat.ui...
+         Uic'ing Dlg_PlatComponent.ui...
+         Uic'ing Dlg_PlatLabComponent.ui...
+         Uic'ing Dlg_SnapManager.ui...
+         Uic'ing Dlg_MessageBox.ui...
+         Uic'ing Dlg_LightConfig.ui...
+         Uic'ing Dlg_OsdAddConfig.ui...
+         Uic'ing Dlg_OsdFontSetting.ui...
+         Uic'ing Dlg_PicView.ui...
+         Uic'ing Dlg_DebugParam.ui...
+         Uic'ing QtGuiClass.ui...
+         Uic'ing Dlg_SceneConfig.ui...
+         Uic'ing Dlg_Scene_Bayonet.ui...
+         Uic'ing Dlg_Scene_IllegalPark.ui...
+         Uic'ing Dlg_Scene_IllegalMode.ui...
+         Uic'ing Dlg_Detection.ui...
+         Uic'ing Dlg_Detection_Area.ui...
+         Uic'ing Dlg_Scene.ui...
+         Uic'ing Dlg_SceneDraw.ui...
+         Uic'ing Dlg_Scene_ManualCapture.ui...
+         Uic'ing Dlg_ScenePoll.ui...
+         Uic'ing Dlg_ImageQuality.ui...
+         Uic'ing Dlg_LogicLane.ui...
+         Uic'ing Dlg_LogicLane_Detail.ui...
+         Uic'ing Dlg_PicMerge.ui...
+         Uic'ing Dlg_IdentParam.ui...
+         Uic'ing Dlg_FlowDetection.ui...
+         Uic'ing Dlg_Detection_Phase.ui...
+       ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IE:\Qt\5.7\msvc2013\include /I.\GeneratedFiles\Release /IE:\Qt\5.7\msvc2013\include\QtCore /IE:\Qt\5.7\msvc2013\include\QtGui /IE:\Qt\5.7\msvc2013\include\QtWidgets /I"..\..\70-protocol\osp\include" /I"..\..\10-common\lib\debug\win32_vc10" /I..\..\CameraClient\VideoPlay /I"..\..\70-protocol\KOSA_C\include" /I"..\..\10-common\include\kd" /I"..\..\10-common\include\system" /I"..\..\10-common\include\cbb\win" /I"..\..\10-common\include\cbb" /I"..\..\10-common\include\search_sdk" /I"..\..\10-common\include\mjpeg_sdk" /IE:\Qt\5.7\msvc2013\include\QtConcurrent /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D WIN32_LEAN_AND_MEAN /D QT_CONCURRENT_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cJSON.cpp delegate.cpp Dlg_DebugParam.cpp Dlg_Detection.cpp Dlg_Detection_Area.cpp Dlg_Detection_Phase.cpp dlg_deviceInfo.cpp Dlg_FlowDetection.cpp dlg_hardware.cpp Dlg_IdentParam.cpp dlg_illegaldict.cpp Dlg_ImageQuality.cpp dlg_IPCInfoSync.cpp Dlg_LightConfig.cpp dlg_localConfig.cpp Dlg_LogicLane.cpp Dlg_LogicLane_Detail.cpp dlg_login.cpp dlg_main.cpp Dlg_MergeDraw.cpp Dlg_MessageBox.cpp Dlg_OsdAddConfig.cpp Dlg_OsdFontSetting.cpp dlg_otherConfig.cpp Dlg_PicMerge.cpp Dlg_PictureDraw.cpp Dlg_PicView.cpp Dlg_PlatComponent.cpp Dlg_PlatLabComponent.cpp Dlg_PowerSyn.cpp Dlg_RegisterPlat.cpp Dlg_Scene.cpp Dlg_SceneConfig.cpp Dlg_SceneDraw.cpp Dlg_ScenePoll.cpp Dlg_Scene_Bayonet.cpp Dlg_Scene_IllegalMode.cpp Dlg_Scene_IllegalPark.cpp Dlg_Scene_ManualCapture.cpp dlg_serial.cpp dlg_signalConfig.cpp Dlg_SnapManager.cpp dlg_systemMaintenance.cpp dlg_velometer.cpp Dlg_Video.cpp GeneratedFiles\Release\moc_delegate.cpp GeneratedFiles\Release\moc_Dlg_DebugParam.cpp GeneratedFiles\Release\moc_Dlg_Detection.cpp GeneratedFiles\Release\moc_Dlg_Detection_Area.cpp GeneratedFiles\Release\moc_Dlg_Detection_Phase.cpp GeneratedFiles\Release\moc_dlg_deviceInfo.cpp GeneratedFiles\Release\moc_Dlg_FlowDetection.cpp GeneratedFiles\Release\moc_dlg_hardware.cpp GeneratedFiles\Release\moc_Dlg_IdentParam.cpp GeneratedFiles\Release\moc_dlg_illegaldict.cpp GeneratedFiles\Release\moc_Dlg_ImageQuality.cpp GeneratedFiles\Release\moc_dlg_IPCInfoSync.cpp GeneratedFiles\Release\moc_Dlg_LightConfig.cpp GeneratedFiles\Release\moc_dlg_localConfig.cpp GeneratedFiles\Release\moc_Dlg_LogicLane.cpp GeneratedFiles\Release\moc_Dlg_LogicLane_Detail.cpp GeneratedFiles\Release\moc_dlg_login.cpp GeneratedFiles\Release\moc_dlg_main.cpp GeneratedFiles\Release\moc_Dlg_MergeDraw.cpp GeneratedFiles\Release\moc_Dlg_MessageBox.cpp GeneratedFiles\Release\moc_Dlg_OsdAddConfig.cpp GeneratedFiles\Release\moc_Dlg_OsdFontSetting.cpp GeneratedFiles\Release\moc_dlg_otherConfig.cpp GeneratedFiles\Release\moc_Dlg_PicMerge.cpp GeneratedFiles\Release\moc_Dlg_PictureDraw.cpp GeneratedFiles\Release\moc_Dlg_PicView.cpp GeneratedFiles\Release\moc_Dlg_PlatComponent.cpp GeneratedFiles\Release\moc_Dlg_PlatLabComponent.cpp GeneratedFiles\Release\moc_Dlg_PowerSyn.cpp GeneratedFiles\Release\moc_Dlg_RegisterPlat.cpp GeneratedFiles\Release\moc_Dlg_Scene.cpp GeneratedFiles\Release\moc_Dlg_SceneConfig.cpp GeneratedFiles\Release\moc_Dlg_SceneDraw.cpp GeneratedFiles\Release\moc_Dlg_ScenePoll.cpp GeneratedFiles\Release\moc_Dlg_Scene_Bayonet.cpp GeneratedFiles\Release\moc_Dlg_Scene_IllegalMode.cpp GeneratedFiles\Release\moc_Dlg_Scene_IllegalPark.cpp GeneratedFiles\Release\moc_Dlg_Scene_ManualCapture.cpp GeneratedFiles\Release\moc_dlg_serial.cpp GeneratedFiles\Release\moc_dlg_signalConfig.cpp GeneratedFiles\Release\moc_Dlg_SnapManager.cpp GeneratedFiles\Release\moc_dlg_systemMaintenance.cpp GeneratedFiles\Release\moc_dlg_velometer.cpp GeneratedFiles\Release\moc_Dlg_Video.cpp GeneratedFiles\Release\moc_Mgr_PictureSave.cpp GeneratedFiles\Release\moc_MyWidget.cpp GeneratedFiles\Release\moc_QtGuiClass.cpp global.cpp globalFunction.cpp ipcsdk_c.cpp ItsCtrl.cpp main.cpp MgrData.cpp MgrIpcSdk.cpp MgrItsCtrl.cpp mgr_alarm.cpp mgr_dev.cpp mgr_evtlst.cpp mgr_iosignal.cpp mgr_ipcsdk.cpp mgr_localcfg.cpp mgr_mjpegctrl.cpp Mgr_PictureSave.cpp mgr_port.cpp mgr_search.cpp mgr_usr.cpp mgr_version.cpp mgr_video.cpp MyMessageBox.cpp MyWidget.cpp QtGuiClass.cpp SearchSDK_c.cpp stdafx.cpp threadbase.cpp
+         cJSON.cpp
+         delegate.cpp
+         Dlg_DebugParam.cpp
+         Dlg_Detection.cpp
+         Dlg_Detection_Area.cpp
+         Dlg_Detection_Phase.cpp
+         dlg_deviceInfo.cpp
+         Dlg_FlowDetection.cpp
+         dlg_hardware.cpp
+         Dlg_IdentParam.cpp
+         dlg_illegaldict.cpp
+         Dlg_ImageQuality.cpp
+         dlg_IPCInfoSync.cpp
+         Dlg_LightConfig.cpp
+         dlg_localConfig.cpp
+         Dlg_LogicLane.cpp
+         Dlg_LogicLane_Detail.cpp
+         dlg_login.cpp
+         dlg_main.cpp
+         Dlg_MergeDraw.cpp
+         正在生成代码...
+     1>e:\project\cameraclient\cameraclient\dlg_main.cpp(361): warning C4715: “Dlg_main::GetWidget”: 不是所有的控件路径都返回值
+         正在编译...
+         Dlg_MessageBox.cpp
+         Dlg_OsdAddConfig.cpp
+         Dlg_OsdFontSetting.cpp
+         dlg_otherConfig.cpp
+         Dlg_PicMerge.cpp
+         Dlg_PictureDraw.cpp
+         Dlg_PicView.cpp
+         Dlg_PlatComponent.cpp
+         Dlg_PlatLabComponent.cpp
+         Dlg_PowerSyn.cpp
+         Dlg_RegisterPlat.cpp
+         Dlg_Scene.cpp
+         Dlg_SceneConfig.cpp
+         Dlg_SceneDraw.cpp
+         Dlg_ScenePoll.cpp
+         Dlg_Scene_Bayonet.cpp
+         Dlg_Scene_IllegalMode.cpp
+         Dlg_Scene_IllegalPark.cpp
+         Dlg_Scene_ManualCapture.cpp
+         dlg_serial.cpp
+         正在生成代码...
+     1>e:\project\cameraclient\cameraclient\dlg_scenepoll.cpp(173): warning C4715: “Dlg_ScenePoll::GetScenceButton”: 不是所有的控件路径都返回值
+     1>e:\project\cameraclient\cameraclient\dlg_scenepoll.cpp(202): warning C4715: “Dlg_ScenePoll::GetDayButton”: 不是所有的控件路径都返回值
+     1>e:\project\cameraclient\cameraclient\dlg_scene.cpp(449): warning C4715: “Dlg_Scene::GetClickedButton”: 不是所有的控件路径都返回值
+         正在编译...
+         dlg_signalConfig.cpp
+         Dlg_SnapManager.cpp
+         dlg_systemMaintenance.cpp
+         dlg_velometer.cpp
+         Dlg_Video.cpp
+         moc_delegate.cpp
+         moc_Dlg_DebugParam.cpp
+         moc_Dlg_Detection.cpp
+         moc_Dlg_Detection_Area.cpp
+         moc_Dlg_Detection_Phase.cpp
+         moc_dlg_deviceInfo.cpp
+         moc_Dlg_FlowDetection.cpp
+         moc_dlg_hardware.cpp
+         moc_Dlg_IdentParam.cpp
+         moc_dlg_illegaldict.cpp
+         moc_Dlg_ImageQuality.cpp
+         moc_dlg_IPCInfoSync.cpp
+         moc_Dlg_LightConfig.cpp
+         moc_dlg_localConfig.cpp
+         moc_Dlg_LogicLane.cpp
+         正在生成代码...
+         正在编译...
+         moc_Dlg_LogicLane_Detail.cpp
+         moc_dlg_login.cpp
+         moc_dlg_main.cpp
+         moc_Dlg_MergeDraw.cpp
+         moc_Dlg_MessageBox.cpp
+         moc_Dlg_OsdAddConfig.cpp
+         moc_Dlg_OsdFontSetting.cpp
+         moc_dlg_otherConfig.cpp
+         moc_Dlg_PicMerge.cpp
+         moc_Dlg_PictureDraw.cpp
+         moc_Dlg_PicView.cpp
+         moc_Dlg_PlatComponent.cpp
+         moc_Dlg_PlatLabComponent.cpp
+         moc_Dlg_PowerSyn.cpp
+         moc_Dlg_RegisterPlat.cpp
+         moc_Dlg_Scene.cpp
+         moc_Dlg_SceneConfig.cpp
+         moc_Dlg_SceneDraw.cpp
+         moc_Dlg_ScenePoll.cpp
+         moc_Dlg_Scene_Bayonet.cpp
+         正在生成代码...
+         正在编译...
+         moc_Dlg_Scene_IllegalMode.cpp
+         moc_Dlg_Scene_IllegalPark.cpp
+         moc_Dlg_Scene_ManualCapture.cpp
+         moc_dlg_serial.cpp
+         moc_dlg_signalConfig.cpp
+         moc_Dlg_SnapManager.cpp
+         moc_dlg_systemMaintenance.cpp
+         moc_dlg_velometer.cpp
+         moc_Dlg_Video.cpp
+         moc_Mgr_PictureSave.cpp
+         moc_MyWidget.cpp
+         moc_QtGuiClass.cpp
+         global.cpp
+         globalFunction.cpp
+         ipcsdk_c.cpp
+         ItsCtrl.cpp
+         main.cpp
+         MgrData.cpp
+         MgrIpcSdk.cpp
+         MgrItsCtrl.cpp
+         正在生成代码...
+         正在编译...
+         mgr_alarm.cpp
+         mgr_dev.cpp
+         mgr_evtlst.cpp
+         mgr_iosignal.cpp
+         mgr_ipcsdk.cpp
+         mgr_localcfg.cpp
+         mgr_mjpegctrl.cpp
+         Mgr_PictureSave.cpp
+         mgr_port.cpp
+         mgr_search.cpp
+         mgr_usr.cpp
+         mgr_version.cpp
+         mgr_video.cpp
+     1>mgr_video.cpp(265): warning C4805: “!=”: 在操作中将类型“BOOL32”与类型“bool”混合不安全
+         MyMessageBox.cpp
+         MyWidget.cpp
+         QtGuiClass.cpp
+         SearchSDK_c.cpp
+         stdafx.cpp
+         threadbase.cpp
+         正在生成代码...
+     1>e:\project\cameraclient\cameraclient\mgr_ipcsdk.cpp(48): warning C4715: “CMgrIpcSdk::login”: 不是所有的控件路径都返回值
+         E:\VS2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IE:\Qt\5.7\msvc2013\include /I.\GeneratedFiles\Release /IE:\Qt\5.7\msvc2013\include\QtCore /IE:\Qt\5.7\msvc2013\include\QtGui /IE:\Qt\5.7\msvc2013\include\QtWidgets /I"..\..\70-protocol\osp\include" /I"..\..\10-common\lib\debug\win32_vc10" /I..\..\CameraClient\VideoPlay /I"..\..\70-protocol\KOSA_C\include" /I"..\..\10-common\include\kd" /I"..\..\10-common\include\system" /I"..\..\10-common\include\cbb\win" /I"..\..\10-common\include\cbb" /I"..\..\10-common\include\search_sdk" /I"..\..\10-common\include\mjpeg_sdk" /IE:\Qt\5.7\msvc2013\include\QtConcurrent /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D WIN32_LEAN_AND_MEAN /D QT_CONCURRENT_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_res.cpp
+         qrc_res.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\CameraClient.res" CameraClient.rc 
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\CameraClient\Win32\Release\\CameraClient.exe" /NOLOGO /LIBPATH:E:\Qt\5.7\msvc2013\lib /LIBPATH:..\Release /LIBPATH:"..\10-common\lib\release\win32" qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib Ws2_32.lib osplib.lib tivhs_sdk_v2.lib mjpeg_sdk.lib wininet.lib iosignal_sdk.lib Qt5Concurrent.lib shell32.lib gdiplus.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\project\CameraClient\Win32\Release\CameraClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\CameraClient\Win32\Release\CameraClient.lib" /MACHINE:X86 /SAFESEH Release\CameraClient.res
+         Release\cJSON.obj
+         Release\delegate.obj
+         Release\Dlg_DebugParam.obj
+         Release\Dlg_Detection.obj
+         Release\Dlg_Detection_Area.obj
+         Release\Dlg_Detection_Phase.obj
+         Release\dlg_deviceInfo.obj
+         Release\Dlg_FlowDetection.obj
+         Release\dlg_hardware.obj
+         Release\Dlg_IdentParam.obj
+         Release\dlg_illegaldict.obj
+         Release\Dlg_ImageQuality.obj
+         Release\dlg_IPCInfoSync.obj
+         Release\Dlg_LightConfig.obj
+         Release\dlg_localConfig.obj
+         Release\Dlg_LogicLane.obj
+         Release\Dlg_LogicLane_Detail.obj
+         Release\dlg_login.obj
+         Release\dlg_main.obj
+         Release\Dlg_MergeDraw.obj
+         Release\Dlg_MessageBox.obj
+         Release\Dlg_OsdAddConfig.obj
+         Release\Dlg_OsdFontSetting.obj
+         Release\dlg_otherConfig.obj
+         Release\Dlg_PicMerge.obj
+         Release\Dlg_PictureDraw.obj
+         Release\Dlg_PicView.obj
+         Release\Dlg_PlatComponent.obj
+         Release\Dlg_PlatLabComponent.obj
+         Release\Dlg_PowerSyn.obj
+         Release\Dlg_RegisterPlat.obj
+         Release\Dlg_Scene.obj
+         Release\Dlg_SceneConfig.obj
+         Release\Dlg_SceneDraw.obj
+         Release\Dlg_ScenePoll.obj
+         Release\Dlg_Scene_Bayonet.obj
+         Release\Dlg_Scene_IllegalMode.obj
+         Release\Dlg_Scene_IllegalPark.obj
+         Release\Dlg_Scene_ManualCapture.obj
+         Release\dlg_serial.obj
+         Release\dlg_signalConfig.obj
+         Release\Dlg_SnapManager.obj
+         Release\dlg_systemMaintenance.obj
+         Release\dlg_velometer.obj
+         Release\Dlg_Video.obj
+         Release\qrc_res.obj
+         Release\moc_delegate.obj
+         Release\moc_Dlg_DebugParam.obj
+         Release\moc_Dlg_Detection.obj
+         Release\moc_Dlg_Detection_Area.obj
+         Release\moc_Dlg_Detection_Phase.obj
+         Release\moc_dlg_deviceInfo.obj
+         Release\moc_Dlg_FlowDetection.obj
+         Release\moc_dlg_hardware.obj
+         Release\moc_Dlg_IdentParam.obj
+         Release\moc_dlg_illegaldict.obj
+         Release\moc_Dlg_ImageQuality.obj
+         Release\moc_dlg_IPCInfoSync.obj
+         Release\moc_Dlg_LightConfig.obj
+         Release\moc_dlg_localConfig.obj
+         Release\moc_Dlg_LogicLane.obj
+         Release\moc_Dlg_LogicLane_Detail.obj
+         Release\moc_dlg_login.obj
+         Release\moc_dlg_main.obj
+         Release\moc_Dlg_MergeDraw.obj
+         Release\moc_Dlg_MessageBox.obj
+         Release\moc_Dlg_OsdAddConfig.obj
+         Release\moc_Dlg_OsdFontSetting.obj
+         Release\moc_dlg_otherConfig.obj
+         Release\moc_Dlg_PicMerge.obj
+         Release\moc_Dlg_PictureDraw.obj
+         Release\moc_Dlg_PicView.obj
+         Release\moc_Dlg_PlatComponent.obj
+         Release\moc_Dlg_PlatLabComponent.obj
+         Release\moc_Dlg_PowerSyn.obj
+         Release\moc_Dlg_RegisterPlat.obj
+         Release\moc_Dlg_Scene.obj
+         Release\moc_Dlg_SceneConfig.obj
+         Release\moc_Dlg_SceneDraw.obj
+         Release\moc_Dlg_ScenePoll.obj
+         Release\moc_Dlg_Scene_Bayonet.obj
+         Release\moc_Dlg_Scene_IllegalMode.obj
+         Release\moc_Dlg_Scene_IllegalPark.obj
+         Release\moc_Dlg_Scene_ManualCapture.obj
+         Release\moc_dlg_serial.obj
+         Release\moc_dlg_signalConfig.obj
+         Release\moc_Dlg_SnapManager.obj
+         Release\moc_dlg_systemMaintenance.obj
+         Release\moc_dlg_velometer.obj
+         Release\moc_Dlg_Video.obj
+         Release\moc_Mgr_PictureSave.obj
+         Release\moc_MyWidget.obj
+         Release\moc_QtGuiClass.obj
+         Release\global.obj
+         Release\globalFunction.obj
+         Release\ipcsdk_c.obj
+         Release\ItsCtrl.obj
+         Release\main.obj
+         Release\MgrData.obj
+         Release\MgrIpcSdk.obj
+         Release\MgrItsCtrl.obj
+         Release\mgr_alarm.obj
+         Release\mgr_dev.obj
+         Release\mgr_evtlst.obj
+         Release\mgr_iosignal.obj
+         Release\mgr_ipcsdk.obj
+         Release\mgr_localcfg.obj
+         Release\mgr_mjpegctrl.obj
+         Release\Mgr_PictureSave.obj
+         Release\mgr_port.obj
+         Release\mgr_search.obj
+         Release\mgr_usr.obj
+         Release\mgr_version.obj
+         Release\mgr_video.obj
+         Release\MyMessageBox.obj
+         Release\MyWidget.obj
+         Release\QtGuiClass.obj
+         Release\SearchSDK_c.obj
+         Release\stdafx.obj
+         Release\threadbase.obj
+         E:\project\CameraClient\Release\tivhs_sdk_v2.lib
+         E:\project\CameraClient\Release\iosignal_sdk.lib
+         E:\project\CameraClient\Release\mjpeg_sdk.lib
+         E:\project\CameraClient\Release\osplib.lib
+            正在创建库 E:\project\CameraClient\Win32\Release\CameraClient.lib 和对象 E:\project\CameraClient\Win32\Release\CameraClient.exp
+         CameraClient.vcxproj -> E:\project\CameraClient\Win32\Release\CameraClient.exe
+     1>已完成生成项目“E:\project\CameraClient\CameraClient\CameraClient.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:23.12

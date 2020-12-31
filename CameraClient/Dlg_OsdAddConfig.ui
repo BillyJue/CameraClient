@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dlg_OsdAddConfig</class>
+ <widget class="QWidget" name="Dlg_OsdAddConfig">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>921</width>
+    <height>695</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dlg_OsdAddConfig</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>18</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="btn_tab1">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>卡口原图</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_tab2">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>卡口合成</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_tab3">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>违法原图</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_tab4">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>违法合成</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_tab5">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>卡口特写</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_tab6">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>违法特写</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>602</width>
+          <height>37</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_3" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <layout class="QGridLayout" name="gridLayout">
+           <property name="horizontalSpacing">
+            <number>0</number>
+           </property>
+           <property name="verticalSpacing">
+            <number>10</number>
+           </property>
+           <item row="11" column="2">
+            <widget class="QCheckBox" name="chk_A">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>A:地点</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="3">
+            <widget class="QCheckBox" name="chk_B">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>B:道路编号</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="4">
+            <widget class="QCheckBox" name="chk_C">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>C:车道号</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="5">
+            <widget class="QCheckBox" name="chk_D">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>D:过车时间</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="6">
+            <widget class="QCheckBox" name="chk_E">
+             <property name="minimumSize">
+              <size>
+               <width>105</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>E:过车时间毫秒</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2" colspan="2">
+            <widget class="QCheckBox" name="chk_enable">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="4" colspan="2">
+            <widget class="QPushButton" name="btn_fontSetting">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>字体设置</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="1">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>示例</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="7">
+            <widget class="QCheckBox" name="chk_V">
+             <property name="text">
+              <string>V:红灯结束时间</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="2" colspan="2">
+            <widget class="QCheckBox" name="chk_wordWrap">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="9">
+            <widget class="QCheckBox" name="chk_X">
+             <property name="text">
+              <string>X:车道方向</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="8">
+            <widget class="QCheckBox" name="chk_W">
+             <property name="text">
+              <string>W:违停时间</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="2" colspan="2">
+            <widget class="QPushButton" name="btn_defautOsd">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>默认OSD</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="2" colspan="3">
+            <widget class="QComboBox" name="cmb_symbol">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QComboBox
+{
+	background-color: rgb(255, 255, 255);
+}
+QComboBox QAbstractItemView::item {
+    height: 30px;
+}</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2" colspan="3">
+            <widget class="QComboBox" name="cmb_alignType">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QComboBox
+{
+	background-color: rgb(255, 255, 255);
+}
+QComboBox QAbstractItemView::item {
+    height: 30px;
+}</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2" colspan="3">
+            <widget class="QComboBox" name="cmb_positonType">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QComboBox
+{
+	background-color: rgb(255, 255, 255);
+}
+QComboBox QAbstractItemView::item {
+    height: 30px;
+}</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2" colspan="3">
+            <widget class="QComboBox" name="cmb_backgroundColor">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QComboBox
+{
+	background-color: rgb(255, 255, 255);
+}
+QComboBox QAbstractItemView::item {
+    height: 30px;
+}</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2" colspan="3">
+            <widget class="QComboBox" name="cmb_timeFormat">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QComboBox
+{
+	background-color: rgb(255, 255, 255);
+}
+QComboBox QAbstractItemView::item {
+    height: 30px;
+}</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="4">
+            <widget class="QCheckBox" name="chk_S">
+             <property name="text">
+              <string>S:防伪码</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="9">
+            <widget class="QCheckBox" name="chk_P">
+             <property name="text">
+              <string>P:行驶方向</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="2">
+            <widget class="QCheckBox" name="chk_I">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>I:车牌颜色</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="6">
+            <widget class="QCheckBox" name="chk_U">
+             <property name="text">
+              <string>U:红灯开始时间</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLabel" name="label_10">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>通配符</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="2">
+            <widget class="QCheckBox" name="chk_Q">
+             <property name="text">
+              <string>Q:违法类型</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="3">
+            <widget class="QCheckBox" name="chk_J">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>J:车身颜色</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="5">
+            <widget class="QCheckBox" name="chk_T">
+             <property name="text">
+              <string>T:红灯时间</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="4">
+            <widget class="QCheckBox" name="chk_K">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>K:车标</string>
+             </property>
+            </widget>
+           </item>
+           <item row="13" column="3">
+            <widget class="QCheckBox" name="chk_R">
+             <property name="text">
+              <string>R:违法代码</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="6">
+            <widget class="QCheckBox" name="chk_M">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>M:限速</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="5">
+            <widget class="QCheckBox" name="chk_L">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>L:车型</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="7">
+            <widget class="QCheckBox" name="chk_N">
+             <property name="text">
+              <string>N:车速</string>
+             </property>
+            </widget>
+           </item>
+           <item row="12" column="8">
+            <widget class="QCheckBox" name="chk_O">
+             <property name="text">
+              <string>O:超速百分比</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="5">
+            <widget class="QCheckBox" name="chk_b">
+             <property name="minimumSize">
+              <size>
+               <width>110</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>b:司乘人员信息</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="7">
+            <widget class="QCheckBox" name="chk_d">
+             <property name="text">
+              <string>d:电子标识</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="6">
+            <widget class="QCheckBox" name="chk_c">
+             <property name="text">
+              <string>c:限行</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="2" colspan="7">
+            <widget class="QLabel" name="label_9">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>时间：2016-5-12 13:02:45 681 地点：金山路</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>启用</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="2">
+            <widget class="QCheckBox" name="chk_Y">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Y:危险品车辆</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="4">
+            <widget class="QCheckBox" name="chk_a">
+             <property name="text">
+              <string>a:号牌类别</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="9">
+            <widget class="QCheckBox" name="chk_H">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>H:车牌</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="8">
+            <widget class="QCheckBox" name="chk_G">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>G:设备编号</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>编辑</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="3">
+            <widget class="QCheckBox" name="chk_Z">
+             <property name="text">
+              <string>Z:号牌置信度</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>背景颜色</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>时间格式</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>位置类型</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>对齐方式</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1">
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>自动换行</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="7">
+            <widget class="QCheckBox" name="chk_F">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>F:设备名称</string>
+             </property>
+            </widget>
+           </item>
+           <item row="14" column="8">
+            <widget class="QCheckBox" name="chk_e">
+             <property name="text">
+              <string>e:物理定位</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="2">
+            <widget class="QPushButton" name="btn_clearFormat">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>清除格式</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="4">
+            <widget class="QPushButton" name="btn_wordWrap">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>换行</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="2" colspan="6">
+            <widget class="QTextEdit" name="ledt_text">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>50</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>9</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_save">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>28</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>保存</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_fresh">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>28</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>刷新</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

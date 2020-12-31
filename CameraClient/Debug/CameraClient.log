@@ -1,0 +1,166 @@
+﻿生成启动时间为 2020/12/29 15:22:06。
+     1>项目“D:\KIPACS_Project\CameraClient\CameraClient\CameraClient.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Soft\VS2013\VC\bin\CL.exe /c /I"..\..\70-protocol\osp\include" /I"..\..\10-common\lib\debug\win32_vc10" /I"..\..\30-client\VideoPlay" /I"..\..\70-protocol\KOSA_C\include" /I"..\..\10-common\include\kd" /I"..\..\10-common\include\system" /I"..\..\10-common\include\cbb\win" /I"..\..\10-common\include\cbb" /I"..\..\10-common\include\search_sdk" /I"..\..\10-common\include\mjpeg_sdk" /I.\GeneratedFiles /I. /ID:\Soft\Qt5.7\5.7\msvc2013\include /I.\GeneratedFiles\Debug /ID:\Soft\Qt5.7\5.7\msvc2013\include\QtCore /ID:\Soft\Qt5.7\5.7\msvc2013\include\QtGui /ID:\Soft\Qt5.7\5.7\msvc2013\include\QtWidgets /ID:\Soft\Qt5.7\5.7\msvc2013\include\QtConcurrent /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D WIN32_LEAN_AND_MEAN /D QT_CONCURRENT_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dlg_Detection.cpp
+         Dlg_Detection.cpp
+       Link:
+         D:\Soft\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\KIPACS_Project\CameraClient\Win32\Debug\\CameraClient.exe" /NOLOGO /LIBPATH:D:\Soft\Qt5.7\5.7\msvc2013\lib /LIBPATH:..\Debug qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Concurrentd.lib osplib.lib tivhs_sdk_v2.lib mjpeg_sdk.lib wininet.lib iosignal_sdk.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\KIPACS_Project\CameraClient\Win32\Debug\CameraClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\KIPACS_Project\CameraClient\Win32\Debug\CameraClient.lib" /MACHINE:X86 /SAFESEH Debug\CameraClient.res
+         Debug\cJSON.obj
+         Debug\customdialog.obj
+         Debug\delegate.obj
+         Debug\Dlg_DebugParam.obj
+         Debug\Dlg_Detection.obj
+         Debug\Dlg_Detection_Area.obj
+         Debug\Dlg_Detection_Phase.obj
+         Debug\dlg_deviceInfo.obj
+         Debug\Dlg_FlowDetection.obj
+         Debug\dlg_hardware.obj
+         Debug\Dlg_IdentParam.obj
+         Debug\dlg_illegaldict.obj
+         Debug\Dlg_ImageQuality.obj
+         Debug\dlg_IPCInfoSync.obj
+         Debug\Dlg_LightConfig.obj
+         Debug\dlg_localConfig.obj
+         Debug\Dlg_LogicLane.obj
+         Debug\Dlg_LogicLane_Detail.obj
+         Debug\dlg_login.obj
+         Debug\dlg_main.obj
+         Debug\Dlg_MergeDraw.obj
+         Debug\Dlg_MessageBox.obj
+         Debug\Dlg_OsdAddConfig.obj
+         Debug\Dlg_OsdFontSetting.obj
+         Debug\dlg_otherConfig.obj
+         Debug\Dlg_PicMerge.obj
+         Debug\Dlg_PictureDraw.obj
+         Debug\Dlg_PicView.obj
+         Debug\Dlg_PlatComponent.obj
+         Debug\Dlg_PlatLabComponent.obj
+         Debug\Dlg_PowerSyn.obj
+         Debug\Dlg_RegisterPlat.obj
+         Debug\Dlg_Scene.obj
+         Debug\Dlg_SceneDraw.obj
+         Debug\Dlg_ScenePoll.obj
+         Debug\Dlg_Scene_ManualCapture.obj
+         Debug\Dlg_SelectAttr.obj
+         Debug\dlg_serial.obj
+         Debug\dlg_signalConfig.obj
+         Debug\Dlg_SnapManager.obj
+         Debug\dlg_systemMaintenance.obj
+         Debug\dlg_velometer.obj
+         Debug\Dlg_Video.obj
+         Debug\drop_shadow_widget.obj
+         Debug\moc_customdialog.obj
+         Debug\moc_delegate.obj
+         Debug\moc_Dlg_DebugParam.obj
+         Debug\moc_Dlg_Detection.obj
+         Debug\moc_Dlg_Detection_Area.obj
+         Debug\moc_Dlg_Detection_Phase.obj
+         Debug\moc_dlg_deviceInfo.obj
+         Debug\moc_Dlg_FlowDetection.obj
+         Debug\moc_dlg_hardware.obj
+         Debug\moc_Dlg_IdentParam.obj
+         Debug\moc_dlg_illegaldict.obj
+         Debug\moc_Dlg_ImageQuality.obj
+         Debug\moc_dlg_IPCInfoSync.obj
+         Debug\moc_Dlg_LightConfig.obj
+         Debug\moc_dlg_localConfig.obj
+         Debug\moc_Dlg_LogicLane.obj
+         Debug\moc_Dlg_LogicLane_Detail.obj
+         Debug\moc_dlg_login.obj
+         Debug\moc_dlg_main.obj
+         Debug\moc_Dlg_MergeDraw.obj
+         Debug\moc_Dlg_MessageBox.obj
+         Debug\moc_Dlg_OsdAddConfig.obj
+         Debug\moc_Dlg_OsdFontSetting.obj
+         Debug\moc_dlg_otherConfig.obj
+         Debug\moc_Dlg_PicMerge.obj
+         Debug\moc_Dlg_PictureDraw.obj
+         Debug\moc_Dlg_PicView.obj
+         Debug\moc_Dlg_PlatComponent.obj
+         Debug\moc_Dlg_PlatLabComponent.obj
+         Debug\moc_Dlg_PowerSyn.obj
+         Debug\moc_Dlg_RegisterPlat.obj
+         Debug\moc_Dlg_Scene.obj
+         Debug\moc_Dlg_SceneDraw.obj
+         Debug\moc_Dlg_ScenePoll.obj
+         Debug\moc_Dlg_Scene_ManualCapture.obj
+         Debug\moc_Dlg_SelectAttr.obj
+         Debug\moc_dlg_serial.obj
+         Debug\moc_dlg_signalConfig.obj
+         Debug\moc_Dlg_SnapManager.obj
+         Debug\moc_dlg_systemMaintenance.obj
+         Debug\moc_dlg_velometer.obj
+         Debug\moc_Dlg_Video.obj
+         Debug\moc_drop_shadow_widget.obj
+         Debug\moc_Mgr_PictureSave.obj
+         Debug\moc_MyTitleWidget.obj
+         Debug\moc_MyWidget.obj
+         Debug\qrc_res.obj
+         Debug\global.obj
+         Debug\globalFunction.obj
+         Debug\ipcsdk_c.obj
+         Debug\ItsCtrl.obj
+         Debug\main.obj
+         Debug\MgrData.obj
+         Debug\MgrIpcSdk.obj
+         Debug\MgrItsCtrl.obj
+         Debug\mgr_alarm.obj
+         Debug\mgr_dev.obj
+         Debug\mgr_evtlst.obj
+         Debug\mgr_iosignal.obj
+         Debug\mgr_ipcsdk.obj
+         Debug\mgr_localcfg.obj
+         Debug\mgr_mjpegctrl.obj
+         Debug\Mgr_PictureSave.obj
+         Debug\mgr_port.obj
+         Debug\mgr_search.obj
+         Debug\mgr_usr.obj
+         Debug\mgr_version.obj
+         Debug\mgr_video.obj
+         Debug\MyMessageBox.obj
+         Debug\MyTitleWidget.obj
+         Debug\MyWidget.obj
+         Debug\SearchSDK_c.obj
+         Debug\stdafx.obj
+         Debug\threadbase.obj
+         D:\KIPACS_Project\CameraClient\Debug\tivhs_sdk_v2.lib
+         D:\KIPACS_Project\CameraClient\Debug\kosa.lib
+         "D:\KIPACS_Project\70-protocol\osp\prj_win32\Debug\ospLog.obj"
+         "D:\KIPACS_Project\70-protocol\osp\prj_win32\Debug\ospnodeman.obj"
+         "D:\KIPACS_Project\70-protocol\osp\prj_win32\Debug\osppost.obj"
+         "D:\KIPACS_Project\70-protocol\osp\prj_win32\Debug\ospsch.obj"
+         "D:\KIPACS_Project\70-protocol\osp\prj_win32\Debug\ospteleserver.obj"
+         "D:\KIPACS_Project\70-protocol\osp\prj_win32\Debug\osptest.obj"
+         "D:\KIPACS_Project\70-protocol\osp\prj_win32\Debug\osptestagent.obj"
+         "D:\KIPACS_Project\70-protocol\osp\prj_win32\Debug\osptimer.obj"
+         "D:\KIPACS_Project\70-protocol\osp\prj_win32\Debug\osputil.obj"
+         "D:\KIPACS_Project\70-protocol\osp\prj_win32\Debug\ospvos.obj"
+         CameraClient.vcxproj -> D:\KIPACS_Project\CameraClient\Win32\Debug\CameraClient.exe
+       PostBuildEvent:
+         xcopy /y/r D:\KIPACS_Project\CameraClient\Debug\*.dll D:\KIPACS_Project\CameraClient\Win32\Debug\
+         xcopy /y/r D:\Soft\Qt5.7\5.7\msvc2013\bin\Qt5Widgetsd.dll D:\KIPACS_Project\CameraClient\Win32\Debug\
+         xcopy /y/r D:\Soft\Qt5.7\5.7\msvc2013\bin\Qt5Svgd.dll D:\KIPACS_Project\CameraClient\Win32\Debug\
+         xcopy /y/r D:\Soft\Qt5.7\5.7\msvc2013\bin\QtGuid.dll D:\KIPACS_Project\CameraClient\Win32\Debug\
+         xcopy /y/r D:\Soft\Qt5.7\5.7\msvc2013\bin\Qt5Cored.dll D:\KIPACS_Project\CameraClient\Win32\Debug\
+         :VCEnd
+         D:\KIPACS_Project\CameraClient\Debug\iosignal_sdk.dll
+         D:\KIPACS_Project\CameraClient\Debug\mjpeg_sdk.dll
+         D:\KIPACS_Project\CameraClient\Debug\Qt5Core.dll
+         D:\KIPACS_Project\CameraClient\Debug\Qt5Cored.dll
+         D:\KIPACS_Project\CameraClient\Debug\Qt5Widgets.dll
+         D:\KIPACS_Project\CameraClient\Debug\Qt5Widgetsd.dll
+         D:\KIPACS_Project\CameraClient\Debug\tivhs_sdk_v2.dll
+         复制了 7 个文件
+         D:\Soft\Qt5.7\5.7\msvc2013\bin\Qt5Widgetsd.dll
+         复制了 1 个文件
+         D:\Soft\Qt5.7\5.7\msvc2013\bin\Qt5Svgd.dll
+         复制了 1 个文件
+         找不到文件 - QtGuid.dll
+         复制了 0 个文件
+         D:\Soft\Qt5.7\5.7\msvc2013\bin\Qt5Cored.dll
+         复制了 1 个文件
+     1>已完成生成项目“D:\KIPACS_Project\CameraClient\CameraClient\CameraClient.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.45
